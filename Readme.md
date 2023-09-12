@@ -37,7 +37,7 @@ https://www.canva.com/design/DAFuIerps88/OU0CPTI1rU1SGJOjQjHFrA/edit?utm_content
 
 # My Role
 MY Role:
-Functions:
+*Functions:
 •	get-job-by-salary
 •	get-job-by-job-name
 •	get-job-by-job-id
@@ -54,32 +54,31 @@ Functions:
 •	upload-certificates
 •	get-certificate
 •	download-Certificates
-Modls:
+*Modls:
 •	ChatMessagePrompot
 •	 FileUtils
 •	Certificates
 •	Recommendations
 •	RecommendationsDTO
-Relations
+*Relations
 one to one (certificate and job Application)
 one to one (Recommendations and job Application)
 Repository
 •	Certificates Repository
 •	Recommendation Repository
-Job Repository:
+*Job Repository:
 •	findJobBySalary 
 •	getJobByJobId
 •	findJobByJobName   
 •	findJobByCity 
 •	 findJobByEndDate
 •	long count();
-Test:
+*Test:
 •	JobApplicationServiceTest
 •	JobServiceTest
 •	RecommendationServiceTest
 
-Security
-
+*Security
 •	Applied Security Authority and Authentication for all my functions.
 
 
